@@ -39,6 +39,7 @@ def get_occupation(data, hometown)
   data.each do |a,b|
     b.each do |c|
       total+= c["age"].to_f
+      num+=1
 end
 
 def get_average_age_for_season(data, season)
