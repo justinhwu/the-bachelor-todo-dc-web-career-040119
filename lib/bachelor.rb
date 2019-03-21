@@ -1,6 +1,6 @@
 def get_first_name_of_season_winner(data, season)
   # code here
-  data.each do |a,b|
+  data[season].each do |a,b|
     b.each do |c,d|
       return 0
     end
