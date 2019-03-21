@@ -3,7 +3,7 @@ def get_first_name_of_season_winner(data, season)
   array = []
   data[season].values.each do |a,b|
     b.each do |c,d|
-      if c[:status]has_value?("Winner")
+      if c[:status].has_value?("Winner")
         array = c[:name][d].split("")
       end
     end
