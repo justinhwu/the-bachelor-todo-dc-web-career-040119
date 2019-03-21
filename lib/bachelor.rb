@@ -12,7 +12,7 @@ def get_contestant_name(data, occupation)
   # code here
   data.each do |a,b|
     b.each do [c]
-    if b["occupation"] == occupation
+    if c["occupation"] == occupation
       return b["name"]
     end
   end
