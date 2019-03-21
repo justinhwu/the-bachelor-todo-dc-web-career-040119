@@ -24,7 +24,7 @@ def count_contestants_by_hometown(data, hometown)
   counter = 0
   data.each do [a,b]
     b.each do [c]
-    counter = 0
+    
     
   
 end
