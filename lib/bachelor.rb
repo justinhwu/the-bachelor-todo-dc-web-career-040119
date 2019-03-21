@@ -42,6 +42,7 @@ def get_occupation(data, hometown)
         return c["occupation"]
       end
     end
+  end
   
 end
 
