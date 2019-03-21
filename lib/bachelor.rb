@@ -35,7 +35,7 @@ end
 def get_occupation(data, hometown)
   # code here
   total = 0
-  
+  num
   data.each do |a,b|
     b.each do |c|
       total+= c["age"].to_f
