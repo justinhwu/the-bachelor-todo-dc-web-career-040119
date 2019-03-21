@@ -2,13 +2,7 @@ def get_first_name_of_season_winner(data, season)
   # code here
   array = []
   data[season].each do |a|
-    b.each do |c,d|
-      if c[:status].has_value?("Winner")
-        array = c[:name][d].split("")
-      end
-    end
-  end
-  array[0]
+    
 end
 
 def get_contestant_name(data, occupation)
