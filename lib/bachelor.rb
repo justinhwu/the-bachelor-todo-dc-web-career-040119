@@ -36,6 +36,7 @@ def get_occupation(data, hometown)
   # code here
   data.each do |a,b|
     b.each do |c|
+      
   
 end
 
