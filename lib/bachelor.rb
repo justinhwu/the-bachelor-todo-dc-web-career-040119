@@ -25,6 +25,7 @@ def count_contestants_by_hometown(data, hometown)
   data.each do [a,b]
     b.each do [c]
     if c["hometown"] == hometown
+      counter+=1
     
   
 end
