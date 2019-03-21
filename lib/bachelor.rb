@@ -38,7 +38,7 @@ def get_occupation(data, hometown)
   data.each do |a,b|
     b.each do |c|
       if c["hometown"] == hometown && counter <1
-        
+        return c["occupation"]
   
 end
 
