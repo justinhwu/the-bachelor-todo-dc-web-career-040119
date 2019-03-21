@@ -40,7 +40,8 @@ def get_occupation(data, hometown)
       if c["hometown"] == hometown && counter <1
         counter +=1
         return c["occupation"]
-      
+      end
+    end
   
 end
 
